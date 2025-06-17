@@ -8,8 +8,8 @@ Este proyecto es una aplicación web construida con **React + Vite** que permite
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tuusuario/tp-final-react.git
-cd tp-final-react
+https://github.com/NicolasMango/TPI-BBVA-REACT.git
+cd tpi-nmango
 ```
 
 2. Instalar dependencias:
@@ -35,13 +35,6 @@ http://localhost:5173
 - Manejo de errores y carga (spinners y alertas)
 - Componentes reutilizables (`CardUsuario`, `CardProducto`, `Navbar`)
 - Estructura modular y clara
-
-## 🎁 Bonus implementado (opcional)
-- [ ] Dashboard con estadísticas básicas
-- [ ] Sistema de notificaciones temporales
-- [ ] Barra de búsqueda o filtros
-- [ ] Uso de Context API
-- [ ] Modo oscuro
 
 ## 📁 Estructura de carpetas
 ```
