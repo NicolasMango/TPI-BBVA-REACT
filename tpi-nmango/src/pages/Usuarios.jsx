@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Container, Grid } from '@mui/material';
 import axios from 'axios';
-import CardUsuario from '../components/CardUsuario';
-import Spinner from '../components/Spinner';
-import ErrorAlert from '../components/ErrorAlert';
+import CardUsuario from '../components/layout/CardUsuario';
+import Spinner from '../components/ui/Spinner';
+import ErrorAlert from '../components/ui/ErrorAlert';
 
 export default function Usuarios() {
   const [usuarios, setUsuarios] = useState([]);
