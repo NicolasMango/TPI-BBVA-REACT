@@ -1,4 +1,3 @@
-
 # TP Final React con Vite
 
 ## 📋 Descripción
@@ -8,7 +7,7 @@ Este proyecto es una aplicación web construida con **React + Vite** que permite
 
 1. Clonar el repositorio:
 ```bash
-https://github.com/NicolasMango/TPI-BBVA-REACT.git
+git clone https://github.com/NicolasMango/TPI-BBVA-REACT.git
 cd tpi-nmango
 ```
 
@@ -35,14 +34,22 @@ http://localhost:5173
 - Manejo de errores y carga (spinners y alertas)
 - Componentes reutilizables (`CardUsuario`, `CardProducto`, `Navbar`)
 - Estructura modular y clara
+- Soporte para modo claro/oscuro (dark mode)
+- Tests unitarios con Vitest y Testing Library
 
 ## 📁 Estructura de carpetas
+
 ```
 /src
 ├── components
-│   ├── CardUsuario.jsx
-│   ├── CardProducto.jsx
-│   └── Navbar.jsx
+│   ├── layout
+│   │   ├── CardProducto.jsx
+│   │   ├── CardUsuario.jsx
+│   ├── ui
+│   │   ├── Navbar.jsx
+│   │   ├── Spinner.jsx
+│   │   └── ErrorAlert.jsx
+│   └── theme.js
 ├── pages
 │   ├── Inicio.jsx
 │   ├── Usuarios.jsx
@@ -59,7 +66,9 @@ http://localhost:5173
 ✅ Hooks (`useState`, `useEffect`)  
 ✅ API externa real  
 ✅ Componentes funcionales  
-✅ Código comentado y organizado
+✅ Código comentado y organizado  
+✅ Tests unitarios  
+✅ Modo claro/oscuro
 
 ---
 
